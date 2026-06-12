@@ -10,7 +10,10 @@ spec:
         elements:
           - app: nginx
             path: ui_approach/nginx     # path in repo for this app
-              # path in repo for this app
+          - app: online-shop
+            path: argocd-demos/online-shop   # path in repo for this app
+          - app: chaiapp
+            path: argocd-demos/chai-app      # path in repo for this app
   # Template that will be used to generate individual Application CRs
   template:
     metadata:
