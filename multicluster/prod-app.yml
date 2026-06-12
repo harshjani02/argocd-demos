@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/harshjani02/argocd-demos.git
     targetRevision: main
-    path: online-shop # Path within the repo
+    path: argocd-demos/online-shop # Path within the repo
   destination:
     server: <prod-cluster-server-url> # Production cluster API server URL here, run `argocd cluster list` to get the URL
     namespace: default
